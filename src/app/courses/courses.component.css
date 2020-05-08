@@ -1,10 +1,4 @@
-.mainCss{
-    display: flex;
-    background-color: #8a9fbda6;
-    height: 807px;
-    overflow: hidden;
-    width: 100%;
-}
+
 .blogs{
     margin: 0 auto;
     display: flex;

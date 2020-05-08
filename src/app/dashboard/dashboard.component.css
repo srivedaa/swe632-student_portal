@@ -1,10 +1,3 @@
-.mainCss{
-    display: flex;
-    background-color: #8a9fbda6;
-    height: 807px;
-    overflow: hidden;
-    width: 100%;
-}
 
 .blogs{
     margin: 0 auto;
@@ -34,6 +27,7 @@
     font-weight: 500;
 }
 .viewall{
+    opacity: 0.9;
     background: #36506f;
     border-radius: 7px;
     width: 90px;
@@ -64,8 +58,13 @@
     font-family: verdana;
     color: #36506f;
     font-size: 15px;
+    width: 230px;
 }
-.project_info:hover{
+.grades_display{
+    border:none;
+    
+}
+.event_info:hover{
     text-decoration: underline;
 }
 .blocks{
@@ -97,6 +96,7 @@
     margin-left: 46px;
 }
 .courses{
+    opacity: 0.9;
     font-size: 13px;
     width: 140px;
     background: #36506f;
@@ -154,4 +154,17 @@
 }
 .btn1{
     background: mediumvioletred;
+}
+.grade_profile{
+    width: 160px;
+    margin-left: 20px;
+}
+.text{
+    color: mediumseagreen;;
+    text-align: center;
+    font-size: 18px;
+}
+.grade{
+    font-size: 40px;
+    font-weight: 600;
 }
