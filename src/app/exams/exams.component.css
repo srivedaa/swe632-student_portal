@@ -1,0 +1,137 @@
+.blogs{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+.second{
+    padding-top: 10px;
+}
+.container{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: white;
+    opacity: 0.8;
+    margin-left: 25px;
+}
+.profile_blog {
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 6px 0.83333vw 0 rgba(0,0,0,.08);
+    width: 350px;
+    height: 300px;
+}
+.project_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.7;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 15px;
+}
+.bookmark{
+    width: 55px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.project_desc{
+    margin: 0 auto;
+    font-family: verdana;
+    color: #36506f;
+    font-size: 17px;
+    width: 300px;
+    line-height: 22px;
+}
+.viewall{
+    border-radius: 7px;
+    width: 90px;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    color: #ff7500;
+    cursor: pointer;
+    background: #f4f4f7;
+    border: 1px solid #ff7500;
+    box-shadow: inset 0 1px 3px 0 rgba(255,117,0,.5);
+}
+.upload_btn {
+   padding-top: 15px;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.viewall:hover{
+    background: #ff7500;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+    color: #fff;
+}
+.pro_display{
+    display: flex;
+    background: #bdcde2a8;
+    padding: 16px 10px;
+
+}
+.tasks_display{
+    padding-top: 20px;
+}
+.task_profile{
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+}
+.std_profile{
+    display: flex;
+    width: 97px;
+    border-right: 1px solid grey;
+}
+.time_left{
+    width: 175px;
+    border-right: none;
+    margin: 0 auto;
+}
+.std_prof{
+    border:none;
+}
+.img_profile{
+    margin-left: 15px;
+}
+.days_left_no{
+    font-family: verdana;
+    color: #ff7500;
+    font-size: 22px;
+    opacity: 0.8;
+    margin-left: 0px;
+}
+.days_left{
+    width: 150px;
+    margin-left: 10px;
+    font-family: verdana;
+    color: #36506f;
+    font-size: 17px;
+    margin-top: 3px;
+}
+.img1{
+    margin-left: 25px;
+}
+.discussion_img{
+    width:20px;
+    height: 20px;
+    opacity: 0.9;
+}
+.disc_no{
+    margin-left: 6px;
+}
+.completed_status{
+    color:green;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: verdana;
+    font-size: 22px;
+    opacity: 0.8;
+}

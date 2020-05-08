@@ -14,6 +14,8 @@ import { TasksComponent } from './tasks/tasks.component';
 import { HeadingComponent } from './heading/heading.component';
 import { BooksComponent } from './books/books.component';
 import { Swe632Component } from './swe632/swe632.component';
+import { ExamsComponent } from './exams/exams.component';
+import { AccountComponent } from './account/account.component';
 
 
 const appRoutes: Routes = [
@@ -34,6 +36,12 @@ const appRoutes: Routes = [
   },
   {
     path:'books',component:BooksComponent
+  },
+  {
+    path:'exams',component:ExamsComponent
+  },
+  {
+    path:'account',component:AccountComponent
   },
 
   // {
@@ -65,7 +73,9 @@ const appRoutes: Routes = [
     TasksComponent,
     HeadingComponent,
     BooksComponent,
-    Swe632Component
+    Swe632Component,
+    ExamsComponent,
+    AccountComponent
   ],
   imports: [
     FormsModule,

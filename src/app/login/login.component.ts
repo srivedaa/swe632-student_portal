@@ -40,7 +40,7 @@ export class LoginComponent implements OnInit {
       this.showpwderror=true;
     }
 
-    if(id=="student"&&password=="abcd"){
+    if(id=="student"&&password=="swe632"){
       this.showHeader = true;
       this.router.navigate(['/dashboard']);
       // window.location.href="http://localhost:4200/dashboard";
