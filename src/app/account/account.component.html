@@ -1,40 +1,41 @@
+<div style="display:flex;background-color: #8a9fbda6;height: 807px;overflow: hidden;">
+    <app-header></app-header>
+    <div style="width: 1190px;">
+        <div class="title_display">
+            <div class="title">Student Profile</div>
+            <div class="studentprofile">
+                <div class="logout">
+                    <div class="name"><a routerLink="" routerLinkActive="active" style="text-decoration: none;
+                        color:white;">Log Out</a></div>
+                </div>
+            </div>
+        </div>
+        <div style="display:flex;">
+            <div>
+                <div class="blogs">
+                    <div class="profile">
+                        <div class="picture">
+                            <img src="../assets/grad_cap.png" width="250px" height="250px">
 
-<div class="mainCss">
-        <app-header></app-header>
-        <div style="width: 100%;">
-                <div class="title_display">
-                        <div class="title">Student Profile</div>
-                        <div class="studentprofile">
-                            <div><img src="../assets/grad_cap.png" width="50px" height="38px"></div>
-                            <div class="name">John Doe</div>
+                        </div>
+                        <div class="prof_name">
+                            <div class="desig">Name: </div>
+                            <div class="prof_name_display">Srivedaa Chinthalapani</div>
+
+                        </div>
+                        <div class="prof_name">
+                            <div class="desig">Degree: </div>
+                            <div class="prof_name_display">Masters</div>
+
+                        </div>
+                        <div class="prof_name">
+                            <div class="desig">Graduate: </div>
+                            <div class="prof_name_display">Software Engineering</div>
+
                         </div>
                     </div>
-            <div style="display:flex;">
-                <div>
-                    <div class="blogs">
-                        <div class="picture">
-                            <div>
-                            <img src="../assets/grad_cap.png" width="150px" height="150px">
-                          
-                            </div>
-                            <div class="prof_name">
-                                    <div class="desig">Name: </div>
-                                    <div class="prof_name_display">Srivedaa Chinthalapani</div>
 
-                                </div>
-                                <div class="prof_name">
-                                        <div class="desig">Degree: </div>
-                                        <div class="prof_name_display">Masters</div>
-    
-                                    </div>
-                                    <div class="prof_name">
-                                            <div class="desig">Graduate: </div>
-                                            <div class="prof_name_display">Software Engineering</div>
-        
-                                        </div>
-                        </div>
-
-                        <!-- <div class="container">
+                    <!-- <div class="container">
                             <div class="profile_blog">
                                 <div style="display:flex;">
                                     <div class="project_title">Projects</div>
@@ -80,9 +81,9 @@
                                 </div>
                             </div>
                         </div> -->
-                    </div>
-                    <router-outlet></router-outlet>
                 </div>
+                <router-outlet></router-outlet>
             </div>
+        </div>
         <div>
-    </div>
+        </div>

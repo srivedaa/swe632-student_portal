@@ -9,36 +9,42 @@
 .title_display{
     background-color: #283655;
     opacity: 0.8;
-    padding-top: 30px;
-    padding-bottom: 18px;
+    padding: 8px;
     width: 1190px;
     display: flex;
 }
-.picture{
+.profile{
     margin: 0 auto;
     text-align: center;
     padding-top: 25px;
 }
 .prof_name{
+    margin-left: 150px;
     padding-left: 35px;
     display: flex;
     padding-top: 20px;
-    width: 300px;
+    width: 500px;
     padding-left: .90278vw;
     font-family: verdana;
+}
+.picture{
+    margin: 40px auto;
 }
 .desig{
     opacity: 0.7;
     font-weight: 500;
+    width: 100px;   
+    text-align: left; 
 }
 .prof_name_display{
-    width: 175px;
+    width: auto;
     margin-left: 5px;
     color: #36506f;
     font-size: 16px;
     font-weight: 400;
 }
 .title{
+    padding-top: 20px;
     width: 767px;
     font-family: verdana;
     color: white;
@@ -46,18 +52,28 @@
     text-align: center;
     margin-left: 160px;
 }
-.studentprofile{
-    margin-left: 80px;
-    display: flex;
-}
+
 .name{
+    display: inline-block;
     margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     font-family: Verdana;
     font-size: 16px;
-    font-weight: 300;
+    opacity: 0.8;
+    font-weight: 600;
     color: white;
     cursor: pointer;
+}
+
+.logout{
+    width:100px;
+    padding-bottom: 10px;
+    margin-left: 405px;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 5px;
+    border: 1px solid white;
 }
 
 .blogs{
