@@ -1,0 +1,69 @@
+<div style="display:flex;background-color: #8a9fbda6;height: 807px;overflow: hidden;">
+    <app-header></app-header>
+    <div>
+        <app-heading></app-heading>
+        <div class="filters">
+                <div class="filter_label">Filter:</div>
+                <div style="margin-left: 20px;">
+                    <select class="select_option" name="subjects" [(ngModel)]="subSelected"
+                        (ngModelChange)="onChangeModel($event)">
+                        <!-- <option value="1">All Subjects</option>
+                <option value="2">SWE 632</option>
+                <option value="3">CS 583</option>
+                <option value="4">CS 550</option> -->
+                        <option *ngFor="let x of subjects" [value]="x.id">{{x.name}}</option>
+                    </select>
+                </div>
+            </div>
+        <div class="book_display">
+            <div class="books_display" style="display: flex;">
+                <div class="books" *ngIf="showswe632">
+                    <img src="../assets/a.jpg" width="200px" class="book_img">
+                    <h3 class="book_info">Erlang Programming</h3>
+                    <p class="book_info">Status Available</p>
+                    <p class="book_info">JISBN 077112589758433</p>
+                </div>
+                <div class="books" *ngIf="showcs550">
+                    <img src="../assets/b.jpg" width="200px" class="book_img">
+                    <h3 class="book_info">Angular Programming</h3>
+                    <p class="book_info">Status Available</p>
+                    <p class="book_info">JISBN 077112589758933</p>
+                </div>
+                <div class="books" *ngIf="showcs583">
+                    <img src="../assets/c.jpg" width="200px" class="book_img">
+                    <h3 class="book_info">Computer Hardware</h3>
+                    <p class="book_info">Status Not Available</p>
+                    <p class="book_info">JISBN 077132538758933</p>
+                </div>
+                <div class="books" *ngIf="showswe632">
+                        <img src="../assets/a.jpg" width="200px" class="book_img">
+                        <h3 class="book_info">Erlang Programming</h3>
+                        <p class="book_info">Status Available</p>
+                        <p class="book_info">JISBN 077112589754933</p>
+                    </div>
+            </div>
+
+            <div class="books_display" style="display: flex;">
+                    <div class="books" *ngIf="showswe632">
+                        <img src="../assets/a.jpg" width="200px" class="book_img">
+                        <h3 class="book_info">Erlang Programming</h3>
+                        <p class="book_info">Status Available</p>
+                        <p class="book_info">JISBN 077112589754933</p>
+                    </div>
+                    <div class="books" *ngIf="showcs550">
+                        <img src="../assets/b.jpg" width="200px" class="book_img">
+                        <h3 class="book_info">Angular Programming</h3>
+                        <p class="book_info">Status Available</p>
+                        <p class="book_info">JISBN 077112589758933</p>
+                    </div>
+                    <div class="books" *ngIf="showcs583">
+                        <img src="../assets/c.jpg" width="200px" class="book_img">
+                        <h3 class="book_info">Computer Hardware</h3>
+                        <p class="book_info">Status Not Available</p>
+                        <p class="book_info">JISBN 077132538758933</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

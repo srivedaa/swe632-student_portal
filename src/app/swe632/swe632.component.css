@@ -1,0 +1,258 @@
+.title_display{
+    background-color: #283655;
+    opacity: 0.8;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    width: 1190px;
+    display: flex;
+}
+.title{
+    width: 767px;
+    font-family: verdana;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 160px;
+}
+.portal_profile{
+    background-color: white;
+    height: 89px;
+    width: 1205px;
+    opacity:0.8;
+}
+.search_text{
+    width: 340px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    position: relative;
+}
+.searchbar{
+    width: 340px;
+    border: none;
+    padding: 8px 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #c4c9e078;
+    font-size: 15px;
+    font-family: Verdana;
+    outline: none;
+    opacity:0.8;
+    background: transparent;
+}
+.studentprofile{
+    margin-left: 80px;
+    display: flex;
+}
+.name{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+.blogs{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    width: 885px;
+    margin-top: 20px;
+}
+.course_label{
+    margin-top:0px;
+}
+.grade_profile{
+    background-color: white;
+    padding: 20px 20px;
+    width: 160px;
+    margin-left: 20px;
+}
+.text{
+    color: #ff8300;
+    text-align: center;
+    font-size: 18px;
+}
+.grade{
+    font-size: 40px;
+    font-weight: 600;
+}
+.container{
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: white;
+    opacity: 0.8;
+    margin-left: 25px;
+}
+.course_progress{
+    background: white;
+    opacity: 0.8;
+    width: 336px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.profile_blog {
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 6px 0.83333vw 0 rgba(0,0,0,.08);
+    width: 497px;
+    height: 251px;
+}
+.course_blog{
+    width: 335px;
+}
+.project_title{
+    margin: 15px;
+    opacity: 0.9;
+    font-family: Verdana;
+    font-weight: 500;
+}
+.viewall{
+    opacity: 0.7;
+    background: #36506f;
+    border-radius: 7px;
+    width: 73px;
+    height: 25px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.pro_display{
+    display: flex;
+    padding: 16px 10px;
+    border-bottom: 1px solid #a9a9a9a6;
+}
+.pro_display:hover{
+    background: #bdcde2a8;
+}
+.circle1{
+    color:#ff8300;
+    margin-left: 20px;
+}
+.project_info{
+    margin-left: 10px;
+    font-family: verdana;
+    color: #36506f;
+    font-size: 15px;
+}
+.project_info:hover{
+    text-decoration: underline;
+}
+.blocks{
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.menu_text{
+    color: #36506f;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.event_profile{
+    display: flex;
+    margin-left: 15px;
+}
+.status{
+    height: 14px;
+    margin-left: 80px;
+    color: white;
+    font-size: 12px;
+    padding: 6px;
+    background: #ff8300;
+    font-family: verdana;
+}
+.status1{
+    margin-left: 46px;
+}
+.courses{
+    opacity: 0.7;
+    background: #36506f;
+    border-radius: 7px;
+    width: 124px;
+    height: 28px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.course1{
+    display: flex;
+    border-bottom: 1px solid #a9a9a9a6;
+    padding: 5px;
+}
+.course1:hover{
+    background: #bdcde2a8;
+}
+.course2{
+    margin-top: 0px;
+    background: none;
+}
+.subject_display{
+    display: flex;
+    padding-left: 15px;
+    width: 365px;
+}
+.day{
+    color: green;
+    font-size: 17px;
+}
+.date{
+    color: green;
+    font-size: 32px;
+}
+.subject_details{
+    font-family: verdana;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 17px;
+    color: #36506f;
+}
+
+.prof_details{
+    display: flex;
+}
+.professor_img{
+    height: 20px;
+}
+.prof_img{
+    width: 30px;
+    opacity: 0.7;
+}
+.prof_name{
+    display: flex;
+    width: 240px;
+    padding-left: .90278vw;
+    font-family: verdana;
+}
+.prof_name_display{
+    width: 175px;
+    margin-left: 5px;
+    color: #36506f;
+    font-size: 16px;
+    font-weight: 400;
+}
+.desig{
+    opacity: 0.7;
+    font-weight: 500;
+}
+.gta{
+    margin-top: 8px;
+    width: 230px;
+    display: flex;
+    margin-left: 60px;
+    font-family: verdana;
+}
+.location_info{
+    display: flex;
+    font-family: verdana;
+    padding-top: 15px;
+}
+.location_img {
+    margin-left: 4px;
+}
+.loc_img{
+    width: 45px;
+    opacity: 0.7;
+}

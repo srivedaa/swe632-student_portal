@@ -1,0 +1,38 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" name='loginForm' id="loginId">
+    <div class="login">
+      <div class="login_page">
+        <div class="login_display">
+          <div style="width: 450px;">
+            <div class="header">
+              <div class="logo"><img src="../assets/mason-logo.png" width="50px" height="50px" class="mason_logo"></div>
+            </div>
+            <div class="form_fields">
+
+              <div class="input-icons"><input type="text" placeholder="NetId" class="input_fields netid"
+                  formControlName="netid" id="netid" (focus)="onFocusMethod()" (blur)="onBlurMethod()" mValidateOnBlur required /></div>
+                  <div class="error-msg" id="error-msg" *ngIf="showiderror">Please enter valid NetId</div>
+              <div><input type="password" placeholder="Password" class="input_fields pwd" formControlName="pwd"
+                  id="pwd" (focus)="onFocusMethod()" mValidateOnBlur required /></div>
+                  <div class="error-msg" id="error-msg" *ngIf="showpwderror">Please enter valid Password</div>
+               
+              <div class="mason_pic"><button type="submit" (click)="login()" class="submit_btn" value="submit">Submit</button></div>
+              <div class="forgot_pwd"><a href="https://password.gmu.edu/" class="forgot">Forgot your password?</a></div>
+        
+
+            </div>
+          </div>
+          <div>
+            <div class="mason"><img src="../assets/LoginPic.png" width="380px" height="380px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </form>
+<app-header *ngIf="showHeader"></app-header>
+</body>
