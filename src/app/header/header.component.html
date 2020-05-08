@@ -1,39 +1,47 @@
 <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div>
     <div class="page-container">
         <div class="sidebar">
-    
+
             <div class="portal_heading">
                 <img src="../assets/grad_cap.png" class="grad_img">
                 <div class="portal_text">StudentPortal</div>
             </div>
-    
-    
+
+
             <div class="icons">
-                <div class="menu_desc"><img src="../assets/account_icon.png" class="menu_icon">
-                    <div class="menu_text"><a routerLink="/account" routerLinkActive="active"
-                        style="text-decoration: none;color:white;">ACCOUNT</a></div>
-                </div>
-                <div class="menu_desc"><img src="../assets/dashboard_icon.png" class="dashboard_icon">
-                    <div class="menu_text dashboard_text"><a routerLink="/dashboard" routerLinkActive="active"
-                            style="text-decoration: none;color:white;">DASHBOARD</a></div>
-                </div>
-                <div class="menu_desc"><img src="../assets/courses_icon.png" class="menu_icon">
-                    <div class="menu_text"><a routerLink="/courses" routerLinkActive="active"
-                        style="text-decoration: none;color:white;">COURSES</a></div>
-                </div>
-                <div class="menu_desc"><img src="../assets/tasks_icon.png" class="menu_icon">
-                    <div class="menu_text"><a routerLink="/tasks" routerLinkActive="active" style="text-decoration: none;color:white;">TASKS</a></div>
-                </div>
-                <div class="menu_desc"><img src="../assets/exams_icon.png" class="menu_icon">
-                    <div class="menu_text"><a routerLink="/exams" routerLinkActive="active" style="text-decoration: none;color:white;">EXAMS</a></div>
-                </div>
-                <div class="menu_desc"><img src="../assets/online_icon.png" class="menu_icon">
-                    <div class="menu_text"><a routerLink="/books" routerLinkActive="active"
-                        style="text-decoration: none;color:white;">ONLINE BOOKS</a></div>
-                </div>
+                <a routerLink="/account" routerLinkActive="active" style="text-decoration: none;color:white;">
+                    <div class="menu_desc"><img src="../assets/account_icon.png" class="menu_icon">
+                        <div class="menu_text">ACCOUNT</div>
+                    </div>
+                </a>
+                <a routerLink="/dashboard" routerLinkActive="active" style="text-decoration: none;color:white;">
+                    <div class="menu_desc"><img src="../assets/dashboard_icon.png" class="dashboard_icon">
+                        <div class="menu_text dashboard_text">DASHBOARD</div>
+                    </div>
+                </a>
+                <a routerLink="/courses" routerLinkActive="active" style="text-decoration: none;color:white;">
+                    <div class="menu_desc"><img src="../assets/courses_icon.png" class="menu_icon">
+                        <div class="menu_text">COURSES</div>
+                    </div>
+                </a>
+                <a routerLink="/tasks" routerLinkActive="active" style="text-decoration: none;color:white;">
+                    <div class="menu_desc"><img src="../assets/tasks_icon.png" class="menu_icon">
+                        <div class="menu_text">TASKS</div>
+                    </div>
+                </a>
+                <a routerLink="/exams" routerLinkActive="active" style="text-decoration: none;color:white;">
+                    <div class="menu_desc"><img src="../assets/exams_icon.png" class="menu_icon">
+                        <div class="menu_text">EXAMS</div>
+                    </div>
+                </a>
+                <a routerLink="/books" routerLinkActive="active" style="text-decoration: none;color:white;">
+                    <div class="menu_desc"><img src="../assets/online_icon.png" class="menu_icon">
+                        <div class="menu_text">ONLINE BOOKS</div>
+                    </div>
+                </a>
                 <div class="border"></div>
                 <div class="subjects">
                     <div class="menu_text">Categories</div>
@@ -54,17 +62,22 @@
                             <div class="fa fa-square block1" style="color: cadetblue;"></div>
                             <div class="menu_text block_subject">Data Analytics</div>
                         </div>
-    
+
                     </div>
                 </div>
                 <div class="share">
-                    <div class="twitter"><a href="https://twitter.com/GeorgeMasonU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../assets/twitter.png" width="40px" height="40px"></a></div>
-                    <div class="facebook" style="margin-left: 15px"><a href="https://www.instagram.com/georgemasonu/?hl=en"><img src="../assets/insta.png" width="45px" height="45px"></a></div>
-                    <div class="linkedIn" style="margin-left: 15px;margin-top:5px;"><a href="https://its.gmu.edu/service/linkedinlearning/"><img src="../assets/linkedIn.png" width="35px" height="35px"></a></div>
+                    <div class="twitter"><a
+                            href="https://twitter.com/GeorgeMasonU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                                src="../assets/twitter.png" width="40px" height="40px"></a></div>
+                    <div class="facebook" style="margin-left: 15px"><a
+                            href="https://www.instagram.com/georgemasonu/?hl=en"><img src="../assets/insta.png"
+                                width="45px" height="45px"></a></div>
+                    <div class="linkedIn" style="margin-left: 15px;margin-top:5px;"><a
+                            href="https://its.gmu.edu/service/linkedinlearning/"><img src="../assets/linkedIn.png"
+                                width="35px" height="35px"></a></div>
                 </div>
             </div>
         </div>
         <router-outlet></router-outlet>
     </div>
-    </div>
-    
+</div>
