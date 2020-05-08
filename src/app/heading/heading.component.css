@@ -1,7 +1,7 @@
 .portal_profile{
     background-color: white;
     height: 89px;
-    width: 1205px;
+    width: 100%;
     opacity:0.8;
 }
 .search_text{
@@ -24,7 +24,7 @@
     background: transparent;
 }
 .studentprofile{
-    margin-left: 405px;
+    margin-right: 40px;
     display: flex;
     margin-top: 24px;
 }

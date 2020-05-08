@@ -1,3 +1,11 @@
+.mainCss{
+    display: flex;
+    background-color: #8a9fbda6;
+    height: 807px;
+    overflow: hidden;
+    width: 100%;
+}
+
 .blogs{
     margin: 0 auto;
     display: flex;
@@ -26,14 +34,18 @@
     font-weight: 500;
 }
 .viewall{
-    opacity: 0.7;
     background: #36506f;
     border-radius: 7px;
-    width: 73px;
+    width: 90px;
     height: 25px;
     color: white;
     outline: none;
     cursor: pointer;
+    font-size: 13px;
+}
+.viewall:hover{
+    border: 1px solid #36506f;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
 }
 .pro_display{
     display: flex;
@@ -85,14 +97,18 @@
     margin-left: 46px;
 }
 .courses{
-    opacity: 0.7;
+    font-size: 13px;
+    width: 140px;
     background: #36506f;
     border-radius: 7px;
-    width: 124px;
     height: 28px;
     color: white;
     outline: none;
     cursor: pointer;
+}
+.courses:hover{
+    border: 1px solid #36506f;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
 }
 .course1{
     margin-top: 3px;

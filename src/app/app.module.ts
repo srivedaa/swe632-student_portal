@@ -16,6 +16,8 @@ import { BooksComponent } from './books/books.component';
 import { Swe632Component } from './swe632/swe632.component';
 import { ExamsComponent } from './exams/exams.component';
 import { AccountComponent } from './account/account.component';
+import { Cs583Component } from './cs583/cs583.component';
+import { Cs550Component } from './cs550/cs550.component';
 
 
 const appRoutes: Routes = [
@@ -30,6 +32,12 @@ const appRoutes: Routes = [
   },
   {
     path:'swe632',component:Swe632Component
+  },
+  {
+    path:'cs583',component:Cs583Component
+  },
+  {
+    path:'cs550',component:Cs550Component
   },
   {
     path:'discussion',component:DiscussionComponent
@@ -75,7 +83,9 @@ const appRoutes: Routes = [
     BooksComponent,
     Swe632Component,
     ExamsComponent,
-    AccountComponent
+    AccountComponent,
+    Cs583Component,
+    Cs550Component
   ],
   imports: [
     FormsModule,

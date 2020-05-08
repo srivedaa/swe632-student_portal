@@ -34,9 +34,9 @@ export class LoginComponent implements OnInit {
     var id = this.loginForm.get("netid").value;
     var password = this.loginForm.get("pwd").value;
 
-    if(id==""){
+    if(id==""||id!="student"){
       this.showiderror=true;
-    }else if(password==""){
+    }else if(password==""||password!="swe632"){
       this.showpwderror=true;
     }
 
@@ -59,9 +59,9 @@ onBlurMethod():void{
   var password = this.loginForm.get("pwd").value;
   var sub = this.loginForm.get("subjects").value;
 
-  if(id==""){
+  if(id==""||id!="student"){
     this.showiderror=true;
-  }else if(password==""){
+  }else if(password==""||password!="swe632"){
     this.showpwderror=true;
   }
 }

@@ -1,3 +1,10 @@
+.mainCss{
+    display: flex;
+    background-color: #8a9fbda6;
+    height: 807px;
+    overflow: hidden;
+    width: 100%;
+}
 .filters{
     display: flex;
     padding-left: 25px;
