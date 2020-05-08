@@ -12,3 +12,11 @@ body{
     width: 100%;
     height: 100%;
 }
+.title_display{
+    width: 100%!important;
+    justify-content: space-between;
+}
+.studentprofile{
+    width: 200px;
+    margin-left:0px!important;
+}
