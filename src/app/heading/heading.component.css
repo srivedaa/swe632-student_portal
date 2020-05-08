@@ -24,6 +24,7 @@
     background: transparent;
 }
 .studentprofile{
+    width: 250px;
     margin-right: 40px;
     display: flex;
     margin-top: 24px;
@@ -37,4 +38,8 @@
     font-weight: 600;
     color: #36506f;
     cursor: pointer;
+}
+.logout_img{
+    margin-left: 30px;
+    margin-top: 6px;
 }

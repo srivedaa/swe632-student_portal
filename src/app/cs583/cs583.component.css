@@ -42,9 +42,13 @@
     background: transparent;
 }
 .studentprofile{
-    width: 200px;
+    width: 240px;
     margin-left: 0px;
     display: flex;
+}
+.logout_img{
+    margin-top: 5px!important;
+    margin-left: 20px!important;
 }
 .name{
     margin-left: 10px;
