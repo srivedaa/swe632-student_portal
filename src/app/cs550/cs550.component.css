@@ -5,8 +5,9 @@
     opacity: 0.8;
     padding-top: 30px;
     padding-bottom: 18px;
-    width: 1190px;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .title{
     width: 767px;
@@ -42,7 +43,8 @@
     background: transparent;
 }
 .studentprofile{
-    margin-left: 80px;
+    width: 200px;
+    margin-left: 0px;
     display: flex;
 }
 .name{

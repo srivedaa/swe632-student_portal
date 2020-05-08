@@ -31,13 +31,13 @@ const appRoutes: Routes = [
     path:'courses',component:CoursesComponent
   },
   {
-    path:'swe632',component:Swe632Component
+    path:'swe1',component:Swe632Component
   },
   {
-    path:'cs583',component:Cs583Component
+    path:'cs1',component:Cs583Component
   },
   {
-    path:'cs550',component:Cs550Component
+    path:'cs2',component:Cs550Component
   },
   {
     path:'discussion',component:DiscussionComponent

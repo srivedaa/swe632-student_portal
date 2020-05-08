@@ -2,8 +2,10 @@
 .title_display{
     background-color: #283655;
     opacity: 0.8;
-    padding: 8px;
-    width: 1190px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    width: 100%;
+    justify-content: space-between;
     display: flex;
 }
 .profile{
@@ -45,7 +47,6 @@
     text-align: center;
     margin-left: 160px;
 }
-
 .name{
     display: inline-block;
     margin-left: 10px;
